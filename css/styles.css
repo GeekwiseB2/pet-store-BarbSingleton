@@ -10,14 +10,16 @@
   font-family: 'Satisfy', cursive;
   color: #F48166;
 }
+.nav-pills>li{
+  padding-top: 45px;
+}
 
-.nav-pills>li.active>a,
+/*.nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
-  background-color: transparent;
-  color:#F48166;
-  margin-top: 50px;
-}
+  background-color:#F48166;
+  display: inline;
+}*/
 
 .jumbotron {
   background-image: url('../img/hero.jpg');
@@ -33,9 +35,11 @@
    font-family: 'Open Sans', sans-serif;
    font-weight:300;
    font-size: 48px;
+   text-transform: uppercase;
 }
-
-
+.block{
+  display: inline-block;
+}
 .item {
   padding: 0 5px;
 }
@@ -43,14 +47,30 @@
 .thumbnail {
   background-color:#edf1f4;
 }
+.button{
+  text-align: center;
+}
 
 .services{
   text-align: center;
 }
-.footer{
+footer{
   background-color:#231f20;
 }
-.footer img{
+footer img{
   max-height: 90px;
+}
 
+.sm{
+  margin-top: 15px;
+  border-left: 1.5px solid #BFC0C1;
+}
+.sm a{
+  color: #BFC0C1;
+
+}
+
+.text-center{
+  text-align: center;
+  color:#484848;
 }
